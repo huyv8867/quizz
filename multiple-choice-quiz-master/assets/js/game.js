@@ -64,7 +64,7 @@ let questions = [
     choice2: "2",
     choice3: "3",
     choice4: "4",
-    answer: 3
+    answer: 4
   },
   {
     question: "Ngành học nào sau đây không được đào tạo tại trường Đại học Tôn Đức Thắng?",
@@ -113,11 +113,59 @@ let questions = [
     choice3: "Huế",
     choice4: "Đà Nẵng",
     answer: 2
+  },
+  {
+    question: "Thư viện của đại học Tôn Đức Thắng có tổng chi phí xây dựng là bao nhiêu?",
+    choice1: "129 tỷ",
+    choice2: "5 tỷ",
+    choice3: "500.000 đô",
+    choice4: "Nhà nước đầu tư (vì mục đích nâng cao tri thức cho thế hệ trẻ)",
+    answer: 2
+  },
+  {
+    question: "Phân hiệu trường Đại học Tôn Đức Thắng ở tỉnh Lâm Đồng chính xác nằm ở đâu?",
+    choice1: "Huyện Bảo Lâm",
+    choice2: "Huyện Lâm Hà",
+    choice3: "Huyện Di Linh",
+    choice4: "Thành phố Bảo Lộc",
+    answer: 4
+  },
+  {
+    question: "Phân hiệu của trường Đại học Tôn Đức Thắng không nằm ở tỉnh nào dưới đây?",
+    choice1: "Tỉnh Phú Yên",
+    choice2: "Tỉnh Lâm Đồng",
+    choice3: "Tỉnh Cà Mau",
+    choice4: "Tỉnh Khánh Hòa",
+    answer: 1
+  },
+  {
+    question: "Màu logo của trường Đại học Tôn Đức Thắng bao gồm?",
+    choice1: "Đỏ, xanh biển và trắng",
+    choice2: "Đỏ và đen",
+    choice3: "Đỏ và xanh biển",
+    choice4: "Cam, đỏ và xanh biển",
+    answer: 3
+  },
+  {
+    question: "Áo dài của sinh viên nữ trường Đại học Tôn Đức Thắng có màu gì?",
+    choice1: "Cam",
+    choice2: "Hồng",
+    choice3: "Tím",
+    choice4: "Xanh biển",
+    answer: 2
+  },
+  {
+    question: "Mã trường Đại học Tôn Đức Thắng là gì?",
+    choice1: "DTT",
+    choice2: "TDT",
+    choice3: "TDTU",
+    choice4: "DTTU",
+    answer: 1
   }
 ];
 
 //CONSTANTS
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 10;
 
 // Start Game & Timer
 startGame = () => {
