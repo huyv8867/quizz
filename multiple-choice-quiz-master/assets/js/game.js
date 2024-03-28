@@ -348,10 +348,17 @@ startGame = () => {
   score = 0; // Bắt đầu từ 0 điểm
   availableQuesions = [...questions];
   getNewQuestion();
-
   // Timer
   setInterval(function () {
   }, 1000);
+};
+
+window.onload = function() {
+  if (questionCounter === 0) {
+     const audio = document.getElementById('backgroundMusic');
+     audio.muted = false; // Unmute the audio
+     audio.play(); // Play the audio
+  }
 };
 
 // Display Next Random Question and Answers
@@ -367,7 +374,7 @@ getNewQuestion = () => {
 
   //Update the progress bar
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-
+  
   const questionIndex = Math.floor(Math.random() * availableQuesions.length);
   currentQuestion = availableQuesions[questionIndex];
   question.innerText = currentQuestion.question;

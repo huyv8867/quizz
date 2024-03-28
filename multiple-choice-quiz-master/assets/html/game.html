@@ -15,18 +15,22 @@
   <!-- Favicon -->
   <link rel="icon" href="../img/itzone.png" type="image/x-icon">
 </head>
-
 <body>
+  <audio id="backgroundMusic" autoplay loop muted>
+    <source src="dxy-remix.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <div style="text-align: center;">
     <img src="../img/tdt.png" alt="" srcset="" width="80">
     <img src="../img/cait.png" alt="" srcset="" width="80">
     <img style="padding-bottom: 14px; padding-left: 30px;" src="../img/itzone.png" alt="" srcset="" width="80">
   </div>
-  
+
   <main class="container">
-    
+
     <div id="game" class="justify-center flex-column">
-    
+
       <div id="hud">
         <div class="hud-item">
 
@@ -44,10 +48,10 @@
 
           <!-- Score -->
           <p class="hud-prefix score-prefix">
-            
+
           </p>
           <h1 class="hud-main-text" id="score">
-          
+
           </h1>
         </div>
       </div>
@@ -73,6 +77,14 @@
     </div>
   </main>
   <script src="../js/game.js"></script>
+  <script>
+    window.onload = function() {
+        setTimeout(function() {
+            var audio = document.getElementById('backgroundMusic');
+            audio.muted = false;
+        }, 1000); // 1000 milliseconds = 1 second
+    };
+  </script>
 </body>
 
 </html>
