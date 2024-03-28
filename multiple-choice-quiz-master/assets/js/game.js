@@ -161,7 +161,182 @@ let questions = [
     choice3: "TDTU",
     choice4: "DTTU",
     answer: 1
-  }
+  },
+  {
+    question: "Tên của một câu lạc bộ chuyên về công nghệ thông tin và máy tính ở trường đại học Tôn Đức Thắng?",
+    choice1: "IT-Zone",
+    choice2: "SEEC",
+    choice3: "TechCom",
+    choice4: "8GB",
+    answer: 1
+  },
+  {
+    question: "Trường Đại học Tôn Đức Thắng có nhận kết quả bài thi đánh giá năng lực của ĐHQG TP.HCM?",
+    choice1: "Không",
+    choice2: "Có",
+    answer: 2
+  },
+  {
+    question: "Học sinh ứng tuyển các ngành của khoa Mỹ thuật Công Nghiệp phải bắt buộc thi môn năng khiếu gì?",
+    choice1: "Vẽ",
+    choice2: "Thanh nhạc",
+    choice3: "Ngôn ngữ Trung",
+    choice4: "Lập trình",
+    answer: 1
+  },
+  {
+    question: "Ngài Tôn Đức Thắng đã từng là chủ tịch nước thứ bao nhiêu của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    choice1: "3",
+    choice2: "2",
+    choice3: "1",
+    choice4: "Ngài là Tổng Bí Thư, không phải chủ tịch nước",
+    answer: 3
+  },
+  {
+    question: "Trường đại học Tôn Đức Thắng là",
+    choice1: "Trường Đại học công lập tự chủ tài chính",
+    choice2: "Trường Đại học tư",
+    choice3: "Trường Đại học công lập",
+    choice4: "Trường Đại học đào tạo liên doanh với chính phủ và bộ giáo dục",
+    answer: 1
+  },
+  {
+    question: "Trường đại học Tôn Đức Thắng không đào tạo ngành nào dưới đây",
+    choice1: "Khoa học máy tính",
+    choice2: "Vật lý lượng tử",
+    choice3: "Công nghệ sinh học",
+    choice4: "Kỹ thuật hóa học",
+    answer: 2
+  },
+  {
+    question: "Khoa Ngoại ngữ trường đại học Tôn Đức Thắng đào đào tạo ngành nào dưới đây",
+    choice1: "Ngôn ngữ Tây Ban Nha",
+    choice2: "Kỹ thuật ngôn ngữ tự nhiên",
+    choice3: "Ngôn ngữ tuyến tính",
+    choice4: "Ngôn ngữ Trung",
+    answer: 4
+  },
+  {
+    question: "Sinh viên khi học tại trường đại học Tôn Đức Thắng sẽ học tại phân hiệu nào",
+    choice1: "Bảo Lộc",
+    choice2: "Cà Mau",
+    choice3: "Phú Yên",
+    choice4: "Khánh Hòa",
+    answer: 1
+  },
+  {
+    question: "Tiền thân của trường đại học Tôn Đức Thắng là",
+    choice1: "Cao đẳng Kỹ thuật Cao Thắng",
+    choice2: "Cao đẳng Công nghệ Kinh tế Quận 7",
+    choice3: "Trường Đại học Công nghệ Dân lập Tôn Đức Thắng",
+    choice4: "Trường đại học Dân lập Tôn Đức Thắng",
+    answer: 3
+  },
+  {
+    question: "Phương thức xét tuyển của trường đại học Tôn Đức Thắng không có phương thức nào",
+    choice1: "Điểm thi đánh giá năng lực của ĐHQG",
+    choice2: "Xét số lượng giấy khen sinh giỏi 12 năm",
+    choice3: "Điểm học ba THPT",
+    choice4: "Điểm thi THPTQG",
+    answer: 2
+  },
+  {
+    question: "Môn bơi tại trường đại học Tôn Đức Thắng được học ở đâu",
+    choice1: "Hồ bơi 778,5 m² với 6 làn bơi tại trường",
+    choice2: "Hồ bơi Vân Đồn",
+    choice3: "Bơi mô phỏng bằng màn hình 3D",
+    choice4: "Chỉ học động tác, không cần xuống nước",
+    answer: 1
+  },
+  {
+    question: "Ngôi trường này được đặt theo tên của ngài Tôn Đức Thắng, ngài từng giữ chức vụ gì?",
+    choice1: "Phó chủ tịch nước đầu tiên",
+    choice2: "Tổng bí thư đầu tiên",
+    choice3: "Chủ tịch nước đầu tiên",
+    choice4: "Hiệu trưởng thành lập trường đầu tiên",
+    answer: 3
+  },
+  {
+    question: "Chữ D trong logo trường Đại học Tôn Đức Thắng có màu gì",
+    choice1: "Cam",
+    choice2: "Xanh",
+    choice3: "Đỏ",
+    choice4: "Tím",
+    answer: 3
+  },
+  {
+    question: "Đại học Tôn Đức Thắng có 1 phân hiệu ở đâu trong các địa điểm dưới này",
+    choice1: "Gia Linh - Lâm Đồng",
+    choice2: "Thành phố Nha Trang - Khánh Hòa",
+    choice3: "Quận 7 - Thành phố Hồ Chí Minh",
+    choice4: "Thành phố Cam Ranh - khánh Hòa",
+    answer: 2
+  },
+  {
+    question: "Đại học Tôn Đức Thắng thuộc top bao nhiêu ở BXH các trường đáng học nhất tại Việt Nam",
+    choice1: "Top 5",
+    choice2: "Top 3",
+    choice3: "Top 100",
+    choice4: "Top 50",
+    answer: 2
+  },
+  {
+    question: "Bài hát đại diện của trường Đại học Tôn Đức Thắng có tên là",
+    choice1: "Hành khúc đại học Tôn Đức Thắng",
+    choice2: "Đại học Tôn Đức Thắng - vì một tương lai tươi sáng",
+    choice3: "Mái trường Tôn Đức Thắng thân yêu",
+    choice4: "Vì một đại học Tôn Đức Thắng phồn vinh",
+    answer: 1
+  },
+  {
+    question: "Khoa Công nghệ Thông tin trường đại học Tôn Đức Thắng đào đào tạo ngành nào dưới đây",
+    choice1: "Kỹ thuật lập trình",
+    choice2: "Mạng neural và trí tuệ nhân tạo",
+    choice3: "Mạng máy tính và truyền thông dữ liệu",
+    choice4: "Kỹ thuật bảo mật",
+    answer: 3
+  },
+  {
+    question: "Trường đại học Tôn Đức Thắng không đào đào tạo ngành nào dưới đây",
+    choice1: "Kỹ thuật vật liệu",
+    choice2: "Kỹ thuật xây dựng",
+    choice3: "Kiến trúc",
+    choice4: "kỹ thuật phần mềm",
+    answer: 1
+  },
+  {
+    question: "Trường đại học Tôn Đức Thắng đào đào tạo ngành nào dưới đây",
+    choice1: "Kinh tế quốc tế",
+    choice2: "Kinh doanh quốc tế",
+    choice3: "Quản trị kinh tế",
+    choice4: "Kinh tế học",
+    answer: 2
+  },
+  {
+    question: "Khoa Quản trị Kinh doanh của Trường đại học Tôn Đức Thắng đào đào tạo ngành nào dưới đây",
+    choice1: "Kinh tế quốc tế",
+    choice2: "Kinh doanh quốc tế",
+    choice3: "Quản trị kinh tế",
+    choice4: "Kinh tế học",
+    answer: 2
+  },
+  {
+    question: "Chương trình học chất lượng cao 50% có nghĩa là",
+    choice1: "50% học ca học phải nói tiếng anh và 50% còn lại nói tiếng việt",
+    choice2: "50% chương trình học là tiếng Việt, 50% còn lại là tiếng anh",
+    choice3: "Học thế nào cũng được",
+    choice4: "Học với giáo viên nước ngoài nhưng học giảng bài bằng tiếng Việt",
+    answer: 2
+  },
+  {
+    question: "Khoa Khoa học Ứng dụng của Trường đại học Tôn Đức Thắng đào đào tạo ngành nào dưới đây",
+    choice1: "Kỹ thuật y sinh",
+    choice2: "Sinh học sự sống",
+    choice3: "Kỹ thuật phân tích sinh học",
+    choice4: "Công nghệ sinh học",
+    answer: 4
+  },
+
 ];
 
 //CONSTANTS
